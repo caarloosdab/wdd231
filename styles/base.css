@@ -151,7 +151,7 @@ body.dark-mode {
 }
 
 .card-header {
-    background-color: #195a8b;
+    background-color: #023047;
     color: white;
     padding: 12px;
     text-align: center;
@@ -204,6 +204,13 @@ body.dark-mode {
     background-color: #dcdcdc; /* light gray */
     color: black;
   }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #023047;
+    color: #fff;
+}
 
 
 @media only screen and (max-width: 45rem) {
