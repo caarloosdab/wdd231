@@ -1,0 +1,259 @@
+/* base css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Main body styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+header {
+    height: 6.3rem;
+    background-color: #023047;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 6%;
+    height: 50px;
+    margin-right: 1.5rem;
+    top: 0;
+}
+
+span {
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb803;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav .hamburger {
+    display: none; /* Hidden by default */
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Menu links, hidden by default on smaller screens */
+nav a {
+    display: none; /* Hidden initially */
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Show links when 'show' class is added to nav */
+nav.show a {
+    display: block;
+}
+
+nav.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Content */
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+main .overlay {
+    text-align: center;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: larger;
+    background-color: black;
+    opacity: 0.5;
+}
+
+/* Light and Dark Mode styles */
+body.dark-mode a:active {
+    color: rgb(202, 195, 195);
+}
+
+body.dark-mode a:visited {
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #61450a;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+/* Card Styles */
+.card {
+    border: 2px solid #023047;
+    margin: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    min-height: 400px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card h2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.card img {
+    width: 90%;
+    height: 90%;
+}
+
+.card-header {
+    background-color: #195a8b;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f2f2f2;
+  }
+  
+  .filter-buttons button {
+    padding: 8px 16px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-buttons button.active {
+    background-color: #195a8b;
+  }
+  
+  .course-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Mobile: 1 column */
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .course {
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .cse {
+    background-color: #8b4513; /* brown */
+    color: white;
+  }
+  
+  .wdd {
+    background-color: #dcdcdc; /* light gray */
+    color: black;
+  }
+
+
+@media only screen and (max-width: 45rem) {
+    .members.grid-view {
+        display: grid;
+        grid-template-columns: 40% 40% ;
+        gap: 20px;
+    }
+
+}
+
+/* Responsive styles for screens with a max width of 38rem (mobile) */
+@media only screen and (max-width: 38rem) {
+    .members.grid-view {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 80% ;
+        gap: 20px;
+    }
+
+    body.dark-mode nav .hamburger {
+        color: #ffb803;
+    }
+
+    nav .hamburger {
+        display: block; /* Show hamburger button on mobile */
+        color: #61450a;
+    }
+
+    /* Hide menu links by default */
+    nav a {
+        display: none;
+    }
+
+    /* Menu links shown when 'show' class is added to nav */
+    nav.show a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Dark Mode toggle button in header */
+    #darkModeToggle {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}

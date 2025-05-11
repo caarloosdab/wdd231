@@ -1,0 +1,84 @@
+/* larger css */
+
+@media only screen and (min-width:38rem ) {
+
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header img {
+        height: 100px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav a {
+        display: inline-block;
+        
+        border-right: 1px solid white;
+    }
+
+    nav a:last-child {
+        border-right: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    main {
+        max-width: 100%;
+    }
+
+    main .overlay{
+        padding: 30px;
+    }
+
+
+    .top-cards {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .course-work {
+        flex: 2;
+    }
+    
+    .info {
+        flex: 1;
+    }
+    
+    /* Ensure both cards take full height of tallest one */
+    .top-cards > .card {
+        flex-grow: 1;
+    }
+
+
+
+    .card {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card a{
+        width: 100%;
+        text-align: center;
+    }
+
+    .card img {
+        margin-top: -5%;
+        height: 80%;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(3, 1fr); /* Desktop: 3 columns */
+        width: 100%;
+      }
+
+}

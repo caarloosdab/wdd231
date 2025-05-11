@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos De Avila - WDD 231 - Web Frontend Development</title>
+    <meta name="description" content="Course assignment portal for the class: WDD 231 - Web Frontend Development">
+    <meta name="author" content="Carlos De Avila">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img loading="lazy" src="images/carlos.webp" alt="Carlos De Avila">
+        <span>Carlos De Avila</span>
+        <button id="darkModeToggle" aria-label="Toggle dark mode">🌓</button>
+    </header>
+    <nav>
+        <button class="hamburger" aria-label="Toggle menu">≡</button>
+        <a href="#" class="active">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="#">Final</a>
+        <a href="#" target="_blank" rel="noopener">GitHub Profile</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+      
+        <div class="top-cards">
+          <section class="card course-work">
+            <h2>Course Work</h2>
+            <ul></ul>
+          </section>
+      
+          <section class="card info">
+            <h2>Info</h2>
+            <img src="images/carlos.webp" alt="">
+          </section>
+        </div>
+      
+        <div class="card">
+            <div class="card-header">Web and Computer Programming Certificate</div>
+            
+            <div class="filter-buttons">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="cse">CSE</button>
+              <button class="filter-btn" data-filter="wdd">WDD</button>
+            </div>
+          
+            <div class="course-grid">
+             
+              <div class="course cse">CSE 110</div>
+              <div class="course cse">CSE 111</div>
+              <div class="course cse">CSE 210</div>
+              <div class="course cse">CSE 212</div>
+              <div class="course cse">CSE 250</div>
+              <div class="course cse">CSE 260</div>
+          
+              <div class="course wdd">WDD 130</div>
+              <div class="course wdd">WDD 131</div>
+              <div class="course wdd">WDD 231</div>
+              <div class="course wdd">WDD 310</div>
+              <div class="course wdd">WDD 320</div>
+              <div class="course wdd">WDD 330</div>
+            </div>
+          </div>
+    </main>
+
+
+    
+
+    <footer>
+        <p>&copy;2025 - Carlos De Avila - Mexico City</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/courses.js"></script>
+</body>
+</html>
