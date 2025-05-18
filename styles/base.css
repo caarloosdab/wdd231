@@ -180,6 +180,12 @@ body.dark-mode {
   .filter-buttons button.active {
     background-color: #195a8b;
   }
+
+  .course-counter{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
   
   .course-grid {
     display: grid;
