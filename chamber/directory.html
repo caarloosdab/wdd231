@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos De Avila - WDD 231 - Directory</title>
+    <meta name="description" content="Directory page for the class: WDD 231 - Web Frontend Development">
+    <meta name="author" content="Carlos De Avila">
+    <link rel="icon" href="/favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Home page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://caarloosdab.github.io/wdd231/">
+    <meta property="og:image" content="https://cdn.contexttravel.com/image/upload/w_1500,q_60/v1683045973/blog/Traveler%27s%20Guide%20to%20the%20Best%20Things%20to%20Do%20in%20Mexico%20City/38.jpg">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="images/logo.png" alt="CDMX Chamber of Commerce logo">
+            <h1>CDMX</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-theme">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="images/hero.jpeg" alt="City skyline" class="hero-img">
+        <button class="cta-button">Keynote Tickets</button>
+    </section>
+
+    <main>
+        <h2>Home</h2>
+        <section class="info-cards">
+            <div class="card events">
+                <h3>Events</h3>
+                <div class="event-content">
+                    <!-- Placeholder for events -->
+                </div>
+            </div>
+            <div class="card weather">
+                <h3>Current Weather</h3>
+                <p><strong>75°F</strong></p>
+                <p>Partly Cloudy</p>
+                <p>High: 85° | Low: 52°</p>
+                <p>Humidity: 34%</p>
+                <p>Sunrise: 7:30am</p>
+                <p>Sunset: 9:59pm</p>
+            </div>
+            <div class="card forecast">
+                <h3>Weather Forecast</h3>
+                <p>Today: <strong>90°F</strong></p>
+                <p>Wednesday: <strong>89°F</strong></p>
+                <p>Thursday: <strong>68°F</strong></p>
+            </div>
+        </section>
+
+        <section class="directory-controls">
+            <button id="grid-btn">Grid View</button>
+            <button id="list-btn">List View</button>
+        </section>
+
+        <div id="directory" class="grid"></div>
+
+        
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p><strong>CDMX Chamber of Commerce</strong></p>
+            <p>Paseo de la reforma<br>CDMX, reforma 999</p>
+            <p>info@CDMX.org<br>(55) 555-2300</p>
+        </div>
+        <div class="footer-socials">
+            <a href="#"><img src="images/facebook.jpg" alt="facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.jpeg" alt="Instagram"></a>
+        </div>
+        <div class="footer-meta">
+            <p>WDD231 Class Project<br>Carlos De Avila</p>
+            <p>© 20xx CDMX Chamber of Commerce<br>Last Modification: 10/21/202X 22:12:35</p>
+        </div>
+    </footer>
+
+    <script src="scripts/members.js"></script>
+</body>
+</html>

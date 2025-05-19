@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "BlueTech Solutions",
+      "address": "123 Innovation Ave, Tech City",
+      "phone": "555-123-4567",
+      "website": "https://bluetech.com",
+      "image": "bluetech.png",
+      "membership": 3,
+      "description": "Leading provider of smart software solutions."
+    },
+    {
+      "name": "Green Earth Landscaping",
+      "address": "456 Greenway Blvd, Gardenville",
+      "phone": "555-789-1234",
+      "website": "https://greenearth.com",
+      "image": "greenearth.png",
+      "membership": 1,
+      "description": "Eco-friendly landscaping and outdoor services."
+    },
+    {
+      "name": "Silver Spoon Catering",
+      "address": "789 Foodie St, Flavor Town",
+      "phone": "555-456-7890",
+      "website": "https://silverspooncatering.com",
+      "image": "silverspoon.png",
+      "membership": 2,
+      "description": "Delicious catering for events big and small."
+    },
+    {
+      "name": "NextGen Fitness",
+      "address": "321 Muscle Lane, Strongsville",
+      "phone": "555-321-6547",
+      "website": "https://nextgenfit.com",
+      "image": "nextgen.png",
+      "membership": 2,
+      "description": "Modern fitness center with 24/7 access."
+    },
+    {
+      "name": "Golden Touch Spa",
+      "address": "555 Relax Dr, Zen City",
+      "phone": "555-222-3333",
+      "website": "https://goldentouchspa.com",
+      "image": "goldentouch.png",
+      "membership": 3,
+      "description": "Luxury spa treatments and wellness services."
+    },
+    {
+      "name": "PrintHub Press",
+      "address": "987 Paper Rd, Ink Town",
+      "phone": "555-111-2222",
+      "website": "https://printhubpress.com",
+      "image": "printhub.png",
+      "membership": 1,
+      "description": "Affordable and fast printing services."
+    },
+    {
+      "name": "Skyline Architecture",
+      "address": "654 Design Blvd, Build City",
+      "phone": "555-444-8888",
+      "website": "https://skylinearch.com",
+      "image": "skyline.png",
+      "membership": 2,
+      "description": "Designing skylines for the future."
+    }
+  ]
+}
