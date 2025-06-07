@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos De Avila - WDD 231 - Index</title>
+    <meta name="author" content="Carlos De Avila">
+    <meta name="description" content="Index page for the WDD 231 chamber of commerce. The weather info and the spotlights will be displayed here">
+    <link rel="icon" href="/favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela&display=swap" rel="stylesheet">
+    <meta property="og:title" content="CDMX chamber of commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://caarloosdab.github.io/wdd231/chamber/index.html">
+    <meta property="og:image" content="https://github.com/caarloosdab/wdd231/blob/main/chamber/images/hero.jpeg">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="images/logo.png" alt="CDMX Chamber of Commerce logo">
+            <h1>CDMX chamber of commerce</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-theme">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="images/hero.jpeg" alt="City skyline" class="hero-img">
+        <button class="cta-button">Keynote Tickets</button>
+    </section>
+
+<main>
+  <section class="join-form">
+    <h2>Join the Chamber</h2>
+    <form method="get" action="thankyou.html">
+      <label>
+        First Name:
+        <input type="text" name="firstName" title="Enter your first name" required autocomplete="given-name">
+      </label>
+
+      <label>
+        Last Name:
+        <input type="text" name="lastName" title="Enter your last name" required autocomplete="family-name">
+      </label>
+
+      <label>
+        Organization Title:
+        <input type="text" name="orgTitle" title="Your title in the organization" autocomplete="organization-title" pattern="[A-Za-z\-\s]{7,}" required>
+      </label>
+
+      <label>
+        Email:
+        <input type="email" name="email" title="Enter a valid email address" required autocomplete="email" placeholder="example@email.com">
+      </label>
+
+      <label>
+        Mobile Phone:
+        <input type="tel" name="phone" title="Enter your mobile number" required autocomplete="tel">
+      </label>
+
+      <label>
+        Organization Name:
+        <input type="text" name="organization" title="Name of your business or organization" required autocomplete="organization">
+      </label>
+
+      <label>
+        Membership Level:
+        <select name="membership" title="Select membership level" required>
+          <option value="np">NP Membership (Free for Non-Profits)</option>
+          <option value="bronze">Bronze Membership</option>
+          <option value="silver">Silver Membership</option>
+          <option value="gold">Gold Membership</option>
+        </select>
+      </label>
+
+      <label>
+        Organization Description:
+        <textarea name="description" title="Tell us about your organization"></textarea>
+      </label>
+
+      <input type="hidden" name="timestamp" id="timestamp">
+
+      <input type="submit" value="Submit Application">
+    </form>
+  </section>
+
+  <section class="membership-cards">
+    <div class="join-card" id="np-card">
+      <h3>NP Membership</h3>
+      <p>Perfect for non-profits. No fees, just benefits!</p>
+      <a href="#np-modal">Learn More</a>
+    </div>
+    <div class="join-card" id="bronze-card">
+      <h3>Bronze Membership</h3>
+      <p>Great starter pack for small businesses.</p>
+      <a href="#bronze-modal">Learn More</a>
+    </div>
+    <div class="join-card" id="silver-card">
+      <h3>Silver Membership</h3>
+      <p>Includes training and event discounts.</p>
+      <a href="#silver-modal">Learn More</a>
+    </div>
+    <div class="join-card" id="gold-card">
+      <h3>Gold Membership</h3>
+      <p>Top tier benefits including advertising and spotlights.</p>
+      <a href="#gold-modal">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Modals for membership info -->
+  <dialog id="np-modal">
+    <h4>NP Membership Benefits</h4>
+    <p>No fee. Access to community events and newsletters.</p>
+    <button onclick="document.getElementById('np-modal').close()">Close</button>
+  </dialog>
+  <dialog id="bronze-modal">
+    <h4>Bronze Membership Benefits</h4>
+    <p>Basic listings, local events access, member badge.</p>
+    <button onclick="document.getElementById('bronze-modal').close()">Close</button>
+  </dialog>
+  <dialog id="silver-modal">
+    <h4>Silver Membership Benefits</h4>
+    <p>Training sessions, early event access, spotlight in directory.</p>
+    <button onclick="document.getElementById('silver-modal').close()">Close</button>
+  </dialog>
+  <dialog id="gold-modal">
+    <h4>Gold Membership Benefits</h4>
+    <p>Premium spotlight, advertising, VIP invites, full training suite.</p>
+    <button onclick="document.getElementById('gold-modal').close()">Close</button>
+  </dialog>
+</main>
+
+    <footer>
+        <div class="footer-info">
+            <p><strong>CDMX Chamber of Commerce</strong></p>
+            <p>Paseo de la reforma<br>CDMX, reforma 999</p>
+            <p>info@CDMX.org<br>(55) 555-2300</p>
+        </div>
+        <div class="footer-socials">
+            <a href="#"><img src="images/facebook.jpg" alt="facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.jpeg" alt="Instagram"></a>
+        </div>
+        <div class="footer-meta">
+            <p>WDD231 Class Project<br>Carlos De Avila</p>
+            <p>© 20xx CDMX Chamber of Commerce<br>Last Modification: 10/21/202X 22:12:35</p>
+        </div>
+    </footer>
+    <script src="scripts/join.js"></script>
+
+</body>
+</html>
