@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos De Avila - WDD 231 - Index</title>
+    <title>Carlos De Avila - WDD 231 - Join Page</title>
     <meta name="author" content="Carlos De Avila">
-    <meta name="description" content="Index page for the WDD 231 chamber of commerce. The weather info and the spotlights will be displayed here">
+    <meta name="description" content="Join page for the WDD 231 chamber of commerce. Form to join the chamber of commerce and a link to the chamber of commerce website">
     <link rel="icon" href="/favicon.ico">
     
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela&display=swap" rel="stylesheet">
-    <meta property="og:title" content="CDMX chamber of commerce">
+    <meta property="og:title" content="CDMX chamber of commerce join page">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://caarloosdab.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://github.com/caarloosdab/wdd231/blob/main/chamber/images/hero.jpeg">
@@ -22,7 +22,7 @@
     <header>
         <div class="logo-title">
             <img src="images/logo.png" alt="CDMX Chamber of Commerce logo">
-            <h1>CDMX chamber of commerce</h1>
+            <h1>CDMX chamber of commerce join page</h1>
             <p>Chamber of Commerce</p>
         </div>
         <nav>
@@ -79,11 +79,12 @@
 
       <label>
         Membership Level:
-        <select name="membership" title="Select membership level" required>
-          <option value="np">NP Membership (Free for Non-Profits)</option>
-          <option value="bronze">Bronze Membership</option>
-          <option value="silver">Silver Membership</option>
-          <option value="gold">Gold Membership</option>
+        <select name="membership" required title="Select a membership level">
+            <option value="" disabled selected>Select a membership level</option>
+            <option value="NP">NP Membership (Non-profit)</option>
+            <option value="Bronze">Bronze Membership</option>
+            <option value="Silver">Silver Membership</option>
+            <option value="Gold">Gold Membership</option>
         </select>
       </label>
 
