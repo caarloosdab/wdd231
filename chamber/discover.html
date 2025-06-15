@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover CDMX - Chamber of Commerce</title>
+  <meta name="author" content="Carlos De Avila" />
+  <meta name="description" content="Discover page for the WDD 231 chamber of commerce. Explore CDMX attractions and learn more about the area." />
+  <link rel="icon" href="/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&family=Varela&display=swap" rel="stylesheet" />
+  <meta property="og:title" content="Discover CDMX - Chamber of Commerce" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://caarloosdab.github.io/wdd231/chamber/discover.html" />
+  <meta property="og:image" content="https://github.com/caarloosdab/wdd231/blob/main/chamber/images/hero.jpeg" />
+
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/larger.css" />
+  <link rel="stylesheet" href="styles/discover.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+</head>
+<body class="discover">
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.png" alt="CDMX Chamber of Commerce logo" />
+      <h2>CDMX chamber of commerce</h2>
+      <p>Chamber of Commerce</p>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+      </ul>
+    </nav>
+    <div class="toggle-theme">
+      <button id="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="discover-layout">
+      <aside id="visitor-message" class="sidebar">
+        <!-- Visitor message from localStorage will go here -->
+      </aside>
+
+      <section class="gallery">
+        <h1>Explore CDMX</h1>
+        <div id="attraction-cards" class="attractions-grid">
+          <!-- Attraction cards loaded via JS -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-info">
+      <p><strong>CDMX Chamber of Commerce</strong></p>
+      <p>Paseo de la Reforma<br />CDMX, reforma 999</p>
+      <p>info@CDMX.org<br />(55) 555-2300</p>
+    </div>
+    <div class="footer-socials">
+      <a href="#"><img src="images/facebook.jpg" alt="Facebook" /></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter" /></a>
+      <a href="#"><img src="images/instagram.jpeg" alt="Instagram" /></a>
+    </div>
+    <div class="footer-meta">
+      <p>WDD231 Class Project<br />Carlos De Avila</p>
+      <p>© 20xx CDMX Chamber of Commerce<br />Last Modification: <span id="lastModified"></span></p>
+    </div>
+  </footer>
+
+  <script src="scripts/discover.js"></script>
+  <script>
+    document.getElementById("lastModified").textContent = document.lastModified;
+  </script>
+</body>
+</html>

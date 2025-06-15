@@ -1,0 +1,52 @@
+{
+  "attractions": [
+    {
+      "name": "Chapultepec Castle",
+      "address": "Bosque de Chapultepec I Secc, Miguel Hidalgo, 11100 CDMX",
+      "description": "A historic castle on a hill offering panoramic views of Mexico City and rich collections of art and history.",
+      "image": "chapultepec_castle.webp"
+    },
+    {
+      "name": "Zócalo - Plaza de la Constitución",
+      "address": "Centro Histórico, 06010 CDMX",
+      "description": "One of the largest city squares in the world, surrounded by iconic buildings and full of cultural life.",
+      "image": "zocalo.webp"
+    },
+    {
+      "name": "Palacio de Bellas Artes",
+      "address": "Av. Juárez, Centro Histórico, 06050 CDMX",
+      "description": "A stunning marble palace and the cultural heart of the city with murals, ballet, and opera.",
+      "image": "bellas_artes.webp"
+    },
+    {
+      "name": "Templo Mayor",
+      "address": "Seminario 8, Centro Histórico, 06060 CDMX",
+      "description": "The ruins of the main temple of the ancient Mexica (Aztec) capital, right in downtown Mexico City.",
+      "image": "templo_mayor.webp"
+    },
+    {
+      "name": "Coyoacán",
+      "address": "Coyoacán, 04000 CDMX",
+      "description": "A charming neighborhood with cobblestone streets, artisan markets, and the famous Frida Kahlo Museum.",
+      "image": "coyoacan.webp"
+    },
+    {
+      "name": "Xochimilco Canals",
+      "address": "Xochimilco, 16070 CDMX",
+      "description": "Colorful boats (trajineras) cruise through the ancient canals of this UNESCO World Heritage site.",
+      "image": "xochimilco.webp"
+    },
+    {
+      "name": "Soumaya Museum",
+      "address": "Plaza Carso, Polanco, 11529 CDMX",
+      "description": "A modern art museum with a futuristic silver design, housing works by Rodin, Dalí, and more.",
+      "image": "soumaya.webp"
+    },
+    {
+      "name": "Torre Latinoamericana",
+      "address": "Eje Central 2, Centro Histórico, 06040 CDMX",
+      "description": "An iconic skyscraper offering sweeping views of Mexico City from its observation deck.",
+      "image": "torre_latinoamericana.webp"
+    }
+  ]
+}
