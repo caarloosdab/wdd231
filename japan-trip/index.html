@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Plan your dream trip to Japan with cultural highlights, travel tips, and must-visit locations." />
+  <meta name="author" content="Carlos De Avila Bravo" />
+  <meta property="og:title" content="Dream Trip to Japan" />
+  <meta property="og:description" content="Discover must-see places, tips, and tools to plan your ideal visit to Japan." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <link rel="icon" href="images/favicon.ico" />
+  <title>Dream Trip to Japan | Home</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header>
+    <h1>Dream Trip to Japan</h1>
+    <nav>
+      <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="hero">
+    <div class="hero-overlay">
+        <img src="images/hero.png" alt="">
+        <h2>Welcome to Your Dream Trip</h2>
+        <p>Explore Japanese culture, food, traditions, and more. Let this site guide you in planning a memorable and meaningful journey to Japan.</p>
+    </div>
+    </section>
+
+    <div id="welcome-message" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <p id="welcome-text"></p>
+    </div>
+  </div>
+
+    <section id="highlighted-places" class="centered-section">
+      <h2>Top Highlights</h2>
+      <div id="highlights-container">
+        <!-- Dynamic JSON content here -->
+      </div>
+    </section>
+
+    <section id="japan-info" class="centered-section">
+    <h2>Japan Quick Facts</h2>
+    <div id="japan-api-data">
+        <!-- API content will be inserted here -->
+    </div>
+    </section>
+
+    <section id="traveler-tips">
+  <h2>Traveler Tips & Useful Phrases</h2>
+  <div class="carousel-container">
+    <div class="tip-carousel">
+      <!-- Slide 1 -->
+      <div class="tip-slide active">
+        <h3>🗣 Basic Phrases</h3>
+        <ul>
+          <li><strong>こんにちは</strong> (Konnichiwa) – Hello</li>
+          <li><strong>ありがとう</strong> (Arigatou) – Thank you</li>
+          <li><strong>すみません</strong> (Sumimasen) – Excuse me / Sorry</li>
+          <li><strong>はい / いいえ</strong> (Hai / Iie) – Yes / No</li>
+          <li><strong>英語を話せますか？</strong> (Eigo o hanasemasu ka?) – Do you speak English?</li>
+        </ul>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="tip-slide">
+        <h3>🚆 Transportation Tips</h3>
+        <ul>
+          <li>Get a <strong>Japan Rail Pass</strong> before arriving.</li>
+          <li>Use IC cards like <strong>Suica</strong> or <strong>Pasmo</strong>.</li>
+          <li>Be quiet on public transport.</li>
+        </ul>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="tip-slide">
+        <h3>🎎 Cultural Etiquette</h3>
+        <ul>
+          <li>Remove shoes when entering homes or tatami areas.</li>
+          <li>Bow when greeting or thanking someone.</li>
+          <li>Don’t tip in Japan—it’s not expected.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="carousel-controls">
+      <button id="prevTip">← Back</button>
+      <button id="nextTip">Next →</button>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dream Trip to Japan | <p>Carlos De Avila</p> | <a href="https://youtube.com/yourprojectvideo" target="_blank">Video Demo</a></p>
+  </footer>
+<script type="module" src="scripts/main.js" defer></script>
+<script src="scripts/displayItems.js"></script>
+<script type="module" src="scripts/api.js" defer></script>
+
+</body>
+
+</html>

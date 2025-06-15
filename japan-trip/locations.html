@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse iconic locations to visit in Japan and get inspired for your trip." />
+  <meta name="author" content="Carlos De Avila Bravo" />
+  <meta property="og:title" content="Dream Trip to Japan | Locations" />
+  <meta property="og:description" content="Explore amazing Japanese locations from cities to temples to countryside escapes." />
+  <link rel="icon" href="images/favicon.ico" />
+  <title>Dream Trip to Japan | Locations</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <script type="module" src="scripts/locations.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Dream Trip to Japan</h1>
+    <nav>
+      <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <h2>Explore Popular Locations</h2>
+      <p>Discover Japan's top destinations — from ancient temples and neon-lit cities to serene countryside hideaways. Click on any location to learn more.</p>
+    </section>
+
+    <section id="filter-section">
+  <label for="filter-select">Filter by Type:</label>
+  <select id="filter-select">
+    <option value="all">All</option>
+    <option value="Nature">Nature</option>
+    <option value="City">City</option>
+    <option value="Historical">Historical</option>
+    <option value="Cultural">Cultural</option>
+  </select>
+</section>
+
+    <section id="locations-container" class="grid">
+      <!-- Dynamically filled with location cards -->
+    </section>
+
+    <!-- Modal will be dynamically injected -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dream Trip to Japan | <p>Carlos De Avila</p> | <a href="https://youtube.com/yourprojectvideo" target="_blank">Video Demo</a></p>
+  </footer>
+
+  <script src="scripts/displayItems.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
+

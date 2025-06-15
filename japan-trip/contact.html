@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Reach out with your questions or suggestions for planning a dream trip to Japan." />
+  <meta name="author" content="Carlos De Avila Bravo" />
+  <meta property="og:title" content="Dream Trip to Japan | Contact" />
+  <meta property="og:description" content="Send your questions or feedback about the travel site or your plans to visit Japan." />
+  <link rel="icon" href="images/favicon.ico" />
+  <title>Dream Trip to Japan | Contact</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <script type="module" src="scripts/contact.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Dream Trip to Japan</h1>
+    <nav>
+      <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <form action="form-response.html" method="get" novalidate>
+      <label for="fullname">Full Name</label>
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        required
+        aria-describedby="fullnameHelp"
+      />
+      <small id="fullnameHelp" class="form-help">Please enter your full name.</small>
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        aria-describedby="emailHelp"
+      />
+      <small id="emailHelp" class="form-help">We'll never share your email.</small>
+
+      <label for="message">Your Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        required
+        aria-describedby="messageHelp"
+      ></textarea>
+      <small id="messageHelp" class="form-help">Write your question or feedback here.</small>
+
+      <label for="updates">
+        <input type="checkbox" id="updates" name="updates" />
+        Send me Japan travel tips and updates
+      </label>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2025 Dream Trip to Japan | Carlos De Avila | 
+      <a href="https://youtube.com/yourprojectvideo" target="_blank" rel="noopener noreferrer">Video Demo</a>
+    </p>
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
+

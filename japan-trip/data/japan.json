@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "Mount Fuji",
+    "image": "images/mount-fuji.webp",
+    "location": "Honshu Island",
+    "type": "Nature",
+    "description": "Japan’s tallest peak and a sacred symbol of beauty and endurance."
+  },
+  {
+    "id": "2",
+    "title": "Fushimi Inari Shrine",
+    "image": "images/fushimi-inari.webp",
+    "location": "Kyoto",
+    "type": "Cultural",
+    "description": "Famous for its thousands of red torii gates winding up the mountain."
+  },
+  {
+    "id": "3",
+    "title": "Shibuya Crossing",
+    "image": "images/shibuya-crossing.jpg",
+    "location": "Tokyo",
+    "type": "City",
+    "description": "One of the busiest pedestrian crossings in the world."
+  },
+  {
+    "id": "4",
+    "title": "Arashiyama Bamboo Grove",
+    "image": "images/arashiyama.webp",
+    "location": "Kyoto",
+    "type": "Nature",
+    "description": "A mesmerizing bamboo forest perfect for peaceful strolls."
+  },
+  {
+    "id": "5",
+    "title": "Nara Deer Park",
+    "image": "images/nara-deer.webp",
+    "location": "Nara",
+    "type": "Nature",
+    "description": "Home to friendly free-roaming deer that bow for snacks."
+  },
+  {
+    "id": "6",
+    "title": "Himeji Castle",
+    "image": "images/himeji-castle.jpg",
+    "location": "Hyogo",
+    "type": "Historical",
+    "description": "A UNESCO World Heritage Site and Japan’s most famous castle."
+  },
+  {
+    "id": "7",
+    "title": "Odaiba Island",
+    "image": "images/odaiba.jpeg",
+    "location": "Tokyo Bay",
+    "type": "Entertainment",
+    "description": "Futuristic shopping, entertainment, and seaside fun."
+  },
+  {
+    "id": "8",
+    "title": "Nikko Toshogu Shrine",
+    "image": "images/nikko-toshogu.webp",
+    "location": "Tochigi",
+    "type": "Cultural",
+    "description": "Lavishly decorated shrine complex surrounded by forest."
+  },
+  {
+    "id": "9",
+    "title": "Dotonbori District",
+    "image": "images/dotonbori.webp",
+    "location": "Osaka",
+    "type": "City",
+    "description": "Lively streets full of neon, street food, and entertainment."
+  },
+  {
+    "id": "10",
+    "title": "Hakone Onsen",
+    "image": "images/hakone-onsen.webp",
+    "location": "Kanagawa",
+    "type": "Relaxation",
+    "description": "A famous hot spring resort area with views of Mount Fuji."
+  },
+  {
+    "id": "11",
+    "title": "Itsukushima Shrine",
+    "image": "images/itsukushima.webp",
+    "location": "Miyajima Island",
+    "type": "Cultural",
+    "description": "Known for its floating torii gate at high tide."
+  },
+  {
+    "id": "12",
+    "title": "Akihabara",
+    "image": "images/akihabara.webp",
+    "location": "Tokyo",
+    "type": "Technology",
+    "description": "Mecca of electronics, anime culture, and gaming."
+  },
+  {
+    "id": "13",
+    "title": "Ghibli Museum",
+    "image": "images/ghibli-museum.webp",
+    "location": "Mitaka, Tokyo",
+    "type": "Museum",
+    "description": "A magical museum celebrating Studio Ghibli’s animation legacy."
+  },
+  {
+    "id": "14",
+    "title": "Snow Monkeys of Jigokudani",
+    "image": "images/snow-monkeys.webp",
+    "location": "Nagano",
+    "type": "Wildlife",
+    "description": "See wild macaques bathing in natural hot springs during winter."
+  },
+  {
+    "id": "15",
+    "title": "Takayama Old Town",
+    "image": "images/takayama.webp",
+    "location": "Gifu",
+    "type": "Historical",
+    "description": "A well-preserved Edo-period town with charming streets and shops."
+  }
+]
